@@ -1,5 +1,9 @@
 [package]
-name = "macros"
+name = "bevy_kindly_macros"
+license-file = "LICENSE.md"
+description = "An extension to Bevy Kindly with macros to define entity kinds for Bevy ECS."
+homepage = "https://github.com/Zeenobit/bevy_kindly"
+repository = "https://github.com/Zeenobit/bevy_kindly"
 version = "0.1.0"
 edition = "2021"
 
