@@ -4,7 +4,7 @@ license-file = "LICENSE.md"
 description = "An extension to Bevy Kindly with macros to define entity kinds for Bevy ECS."
 homepage = "https://github.com/Zeenobit/bevy_kindly"
 repository = "https://github.com/Zeenobit/bevy_kindly_macros"
-version = "0.1.1"
+version = "0.2.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
