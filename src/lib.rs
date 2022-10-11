@@ -88,7 +88,7 @@ pub fn derive_entity_kind(item: proc_macro::TokenStream) -> proc_macro::TokenStr
         .unwrap_or_else(|| TokenStream::from(quote! { () }));
 
     proc_macro::TokenStream::from(quote! {
-        impl bevy_kindly::EntityKind for #ident {
+        impl EntityKind for #ident {
             type DefaultBundle = #default_components;
 
             type Bundle = #components;
